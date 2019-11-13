@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import Canvas from './Canvas';
+import Site from './Site';
 
 const App: React.FC = () => {
     return (
         <div className="app">
-            <Canvas />
+            <Site />
         </div>
     );
 }
